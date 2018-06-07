@@ -16,6 +16,11 @@ page-home {
 		font-size: 25px;
 		font-family: "Saint Helens Medium";
 	}
+	.box_title{
+		color:  rgb(20, 87, 187);
+		font-size: 30px;
+		font-family: "Saint Helens Medium";
+	}
 
 	ion-card.card {
 		box-shadow: none;
@@ -30,9 +35,9 @@ page-home {
 	}
 		   
     p{
-        font-size: 30px;
+        font-size: 40px;
 		color:  rgb(218, 57, 196);
-		font-family: "Layiji SaRangHeYo Regular";
+		font-family: "Saint Helens Medium";
 		text-shadow: 3px 3px #ABB2B9;
     }
 
@@ -69,11 +74,6 @@ page-home {
 			color: rgb(56, 209, 196);
 		}
 	}
-
-	.icon {
-		padding-right: 10px;
-	}
-
 	.bottom {
 		position: absolute;
 		bottom: 0;

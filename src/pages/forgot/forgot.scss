@@ -1,7 +1,8 @@
 page-forgot {
 	.background {	
 		//background: rgb(130, 231, 127);
-		background-image: url("../assets/bg.jpg");
+		background-image: url("../assets/fp.jpg");
+		background-size: 100%;
 	}
 
 	.scroll-content {
@@ -26,11 +27,23 @@ page-forgot {
 	}
 		   
     p{
-        font-size: 30px;
+        font-size: 50px;
 		color:  rgb(218, 57, 196);
-		font-family: "Layiji SaRangHeYo Regular";
+		font-family: "Saint Helens Medium";
 		text-shadow: 3px 3px #ABB2B9;
-    }
+	}
+	.button{
+		font-size: 24px;
+		//color:  rgb(218, 57, 196);
+		font-family: "Saint Helens Medium";
+		//text-shadow: 3px 3px #ABB2B9;
+	}
+	
+	.box_title{
+		color:  rgb(20, 87, 187);
+		font-size: 30px;
+		font-family: "Saint Helens Medium";
+	}
 
 	.list > .item-block:first-child {
 		border: medium none;

@@ -1,7 +1,8 @@
 import { Component, ViewChild } from '@angular/core';
 import { NavController, AlertController  } from 'ionic-angular';
 
-import {ForgotPage} from '../forgot/forgot';
+import { ForgotPage } from '../forgot/forgot';
+import { DetailPage } from '../detail/detail';
 
 @Component({
   selector: 'page-home',
@@ -10,6 +11,7 @@ import {ForgotPage} from '../forgot/forgot';
 export class HomePage {
 
   forgotPage = ForgotPage;
+  detailPage = DetailPage;
 
   @ViewChild('id') id;
   @ViewChild('password') password;

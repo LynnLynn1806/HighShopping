@@ -1,20 +1,20 @@
 <ion-content class="background">
-    <p>Reset Password</p>
+    <p>Forgot Password</p>
     <ion-card>
-        <ion-card-header>
-            <ion-icon name="leaf"> Forgot Password</ion-icon>
+        <ion-card-header class="box_title">
+            <ion-icon name="leaf"></ion-icon> Enter your E-mail
         </ion-card-header>
         <ion-card-content>
             <ion-list no-line>
                 <ion-item>
-                    <ion-input type="text" placeholder="Enter your email"></ion-input>
+                    <ion-input type="text" placeholder="Enter your email" [(ngModel)] = "to"></ion-input>
                 </ion-item>          
                 <p>
-                    <button ion-button color="secondary" icon-start (click) = "confirm()">
+                    <button ion-button color="secondary" icon-start (click) = "send()" class="button">
                       <ion-icon name='checkmark-circle-outline'></ion-icon>
                       Confirm
                     </button>
-                    <button ion-button color="secondary" [navPush] ="homePage">
+                    <button ion-button color="secondary" [navPush] ="homePage" class="button">
                       <ion-icon name='arrow-dropleft'></ion-icon>
                       Back
                     </button>

@@ -2,9 +2,13 @@
  <p>HIGH Shopping Operating<br>
   Management System</p>
   <ion-card>
-      <ion-card-header>
-        <ion-icon name="leaf"> Welcome !!</ion-icon>
+    <p>
+      <ion-card-header class="box_title">
+        <ion-icon name="leaf"></ion-icon>
+         Welcome !!
       </ion-card-header>
+    </p>
+    
     <ion-card-content>
       <ion-list no-line>
         <ion-item>
@@ -20,7 +24,8 @@
           <ion-checkbox color="secondary" checked="true"></ion-checkbox>
         </ion-item>
 
-        <button ion-button block (click) = "signIn()">Log in</button>   
+        <button ion-button block (click) = "signIn()">Log in</button> 
+        <!-- <button ion-button block [navPush] ="detailPage">Log in</button> -->
         <a [navPush] ="forgotPage" class="box">Forgot Password</a>      
       </ion-list>
     </ion-card-content>
