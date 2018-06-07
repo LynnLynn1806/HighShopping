@@ -8,9 +8,17 @@
             <ion-list no-line>
                 <ion-item>
                     <ion-input type="text" placeholder="Enter your email"></ion-input>
-                </ion-item>           
-                <button ion-button block>Confirm</button>  
-                <button ion-button block [navPush] ="homePage">Back</button>                       
+                </ion-item>          
+                <p>
+                    <button ion-button color="secondary" icon-start (click) = "confirm()">
+                      <ion-icon name='checkmark-circle-outline'></ion-icon>
+                      Confirm
+                    </button>
+                    <button ion-button color="secondary" [navPush] ="homePage">
+                      <ion-icon name='arrow-dropleft'></ion-icon>
+                      Back
+                    </button>
+                </p>                      
             </ion-list>
         </ion-card-content>
     </ion-card>
