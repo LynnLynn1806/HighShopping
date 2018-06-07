@@ -1,0 +1,77 @@
+page-home {
+	.background {	
+		//background: rgb(130, 231, 127);
+		background-image: url("../assets/bg.jpg");
+	}
+
+	.scroll-content {
+		align-content: center;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		text-align: center;
+		overflow: hidden;
+	}
+	
+	ion-card.card {
+		box-shadow: none;
+		background: rgb(204, 236, 188);
+		border-radius: 10px;
+	}
+
+	a{
+		color:  rgb(234, 34, 219);
+		font-size: 16px;
+		font-family: "Sukhumvit Set";
+	}
+		   
+    p{
+        font-size: 30px;
+		color:  rgb(218, 57, 196);
+		font-family: "Layiji SaRangHeYo Regular";
+		text-shadow: 3px 3px #ABB2B9;
+    }
+
+	.list > .item-block:first-child {
+		border: medium none;
+	}
+
+	.item {
+		margin-bottom: 10px;
+		background: rgba(255, 255, 255, 0.5);
+		border: medium none;
+
+		.text-input, {
+			color: rgb(56, 209, 196);
+		}
+
+		input::-moz-placeholder  {
+			color: rgb(56, 209, 196);
+		}
+
+		input:-moz-placeholder {
+			color: rgb(56, 209, 196);
+		}
+
+		*::-webkit-input-placeholder  {
+			color: rgb(56, 209, 196);
+		}
+
+		*:-ms-input-placeholder  {
+			color: rgb(56, 209, 196);
+		}
+
+		*:-moz-placeholder  {
+			color: rgb(56, 209, 196);
+		}
+	}
+
+	.icon {
+		padding-right: 10px;
+	}
+
+	.bottom {
+		position: absolute;
+		bottom: 0;
+	}
+}

@@ -1,0 +1,28 @@
+<ion-content class="background">
+ <p>HIGH Shopping Operating<br>
+  Management System</p>
+  <ion-card>
+      <ion-card-header>
+        <ion-icon name="leaf" class="box"> Welcome !!</ion-icon>
+      </ion-card-header>
+    <ion-card-content>
+      <ion-list no-line>
+        <ion-item>
+          <ion-input type="text" placeholder="ID" #id></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-input type="password" placeholder="Password" #password></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>Save ID</ion-label>
+          <ion-checkbox color="secondary" checked="true"></ion-checkbox>
+        </ion-item>
+
+        <button ion-button block (click) = "signIn()">Log in</button>   
+        <a [navPush] ="forgotPage">Forgot Password</a>      
+      </ion-list>
+    </ion-card-content>
+  </ion-card>
+</ion-content> 
