@@ -3,7 +3,7 @@
   Management System</p>
   <ion-card>
       <ion-card-header>
-        <ion-icon name="leaf" class="box"> Welcome !!</ion-icon>
+        <ion-icon name="leaf"> Welcome !!</ion-icon>
       </ion-card-header>
     <ion-card-content>
       <ion-list no-line>
@@ -16,12 +16,12 @@
         </ion-item>
 
         <ion-item>
-          <ion-label>Save ID</ion-label>
+          <ion-label class="box">Save ID</ion-label>
           <ion-checkbox color="secondary" checked="true"></ion-checkbox>
         </ion-item>
 
         <button ion-button block (click) = "signIn()">Log in</button>   
-        <a [navPush] ="forgotPage">Forgot Password</a>      
+        <a [navPush] ="forgotPage" class="box">Forgot Password</a>      
       </ion-list>
     </ion-card-content>
   </ion-card>
